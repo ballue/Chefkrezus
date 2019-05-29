@@ -17,18 +17,48 @@
                aria-selected="false" style="color: #efd77a; background-color: #292f33"><i class="far fa-images fa-1x mr-3"></i>Photos</a>
         </li>
     </ul>
-
-
     <div class="tab-content" id="myTabContent">
-
-
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row spacer">
+                <div class="col-4">
+                    <img src="assets/img/twitch.png" class="img-fluid" style="width: 100px" alt="Responsive image">
+                </div>
+                <div class="col-8">
 
+                </div>
+            </div>
 
-
+            <div id="twitch-embed" class="spacer spacerbottom"></div>
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <script type="text/javascript">
+                new Twitch.Embed("twitch-embed", {
+                    width: "100%",
+                    height: 600,
+                    channel: "ID de la chaine",
+                    theme: "dark",
+                });
+            </script>
 
         </div>
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row spacer">
+                <div class="col-8">
+
+                </div>
+                <div class="col-4">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle btn-sm float-right" type="button" id="dropdownMenuMenu" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" style="background-color: #f18f26; color: white">
+                           <strong>Autes jeux</strong>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuMenu">
+                            <button class="dropdown-item" type="button">Smite</button>
+                            <button class="dropdown-item" type="button">GTA V</button>
+                            <button class="dropdown-item" type="button">Apex Legend</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="row spacer">
                 <div class="col-6">
@@ -74,10 +104,6 @@
                     <img src="assets/img/Apex%C2%A0Legends™%20(5).png" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
-
-
-
-
         </div>
     </div>
 
