@@ -13,9 +13,9 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.1/css/mdb.min.css" rel="stylesheet">
 </head>
 
-<!-- Just an image -->
-<nav class="navbar navbar-dark fixed-top" style="background-color: #F1F1F1">
-	<a class="navbar-brand text-center" href="#">
-		<img src="assets/img/chefkrezus.png" class="text-center" height="30" alt="mdb logo">
-	</a>
-</nav>
+<!-- Jumbotron -->
+
+
+    <!-- Title -->
+
+        <img src="assets/img/mn.png" class="rounded img-fluid" alt="...">
