@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma&display=swap');
 body {
     font-family: 'Varela Round', sans-serif;
     background-color: #292f33!important;
@@ -9,4 +10,13 @@ body {
 }
 .spacerbottom {
     margin-bottom: 3px;
+}
+
+#background {
+
+}
+#video {
+    border: ridge 2px white;
+    border-image: url("");
+
 }

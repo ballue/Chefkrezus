@@ -1,6 +1,6 @@
 <?php  include 'header.php'?>
 <html>
-<body>
+<body style="z-index: 998">
 
 <div class="container">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -43,7 +43,7 @@
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
             <div class="row spacer">
                 <div class="col-8">
-
+                    <h3 class="bold" style="color: #F1F1F1"><strong>Apex Legends</strong></h3>
                 </div>
                 <div class="col-4">
                     <div class="dropdown">
@@ -53,39 +53,39 @@
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuMenu">
                             <button class="dropdown-item" type="button">Smite</button>
-                            <button class="dropdown-item" type="button">GTA V</button>
-                            <button class="dropdown-item" type="button">Apex Legend</button>
+                            <button class="dropdown-item" type="button">Apex Legends</button>
                         </div>
                     </div>
                 </div>
             </div>
-
+<div id="background">
             <div class="row spacer">
-                <div class="col-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="assets/video/Apex%C2%A0Legends™%20(2).mp4" allowfullscreen></iframe>
-                    </div>
+                <div class="col-md-6">
+                    <video  class="embed-responsive embed-responsive-16by9" id="video" controls muted loop>
+                        <source class="embed-responsive-item"  src="assets/video/Apex%C2%A0Legends™%20(2).mp4" type="video/mp4">
+                    </video>
+
                 </div>
-                <div class="col-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="assets/video/Apex%C2%A0Legends™%20(3).mp4" allowfullscreen></iframe>
-                    </div>
+                <div class="col-md-6">
+                    <video  class="embed-responsive embed-responsive-16by9" id="video" controls muted loop>
+                        <source class="embed-responsive-item" src="assets/video/Apex%C2%A0Legends™%20(3).mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
             <div class="row spacer">
-                <div class="col-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="assets/video/Apex%C2%A0Legends™%20(4).mp4" allowfullscreen></iframe>
-                    </div>
+                <div class="col-md-6">
+                    <video  class="embed-responsive embed-responsive-16by9" id="video" controls muted loop>
+                        <source src="assets/video/Apex%C2%A0Legends™%20(4).mp4" type="video/mp4">
+                    </video>
                 </div>
-                <div class="col-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="assets/video/Apex%C2%A0Legends™%20(5).mp4" allowfullscreen></iframe>
-                    </div>
+                <div class="col-md-6">
+                    <video class="embed-responsive embed-responsive-16by9" id="video" controls muted loop>
+                        <source src="assets/video/Apex%C2%A0Legends™%20(5).mp4" type="video/mp4">
+                    </video>
                 </div>
-
             </div>
+</div>
         </div>
         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
             <div class="row spacer">
@@ -110,6 +110,7 @@
 </div>
 
 <?php  include 'footer.php' ?>
+
 </body>
 </html>
 
