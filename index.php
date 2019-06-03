@@ -1,12 +1,14 @@
 <?php  include 'header.php'?>
 <html>
 <body style="z-index: 998">
-
+<div id="background">
 <div class="container">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item rounded mx-auto d-block">
             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
                aria-selected="true" style="color: #efd77a; background-color: #292f33"><i class="fas fa-home fa-1x mr-3"></i>Home</a>
+
+
         </li>
         <li class="nav-item rounded mx-auto d-block">
             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
@@ -28,13 +30,14 @@
                 </div>
             </div>
 
+
             <div id="twitch-embed" class="spacer spacerbottom"></div>
             <script src="https://embed.twitch.tv/embed/v1.js"></script>
             <script type="text/javascript">
                 new Twitch.Embed("twitch-embed", {
                     width: "100%",
                     height: 600,
-                    channel: "ID de la chaine",
+                    channel: "44322889",
                     theme: "dark",
                 });
             </script>
@@ -58,7 +61,7 @@
                     </div>
                 </div>
             </div>
-<div id="background">
+
             <div class="row spacer">
                 <div class="col-md-6">
                     <video  class="embed-responsive embed-responsive-16by9" id="video" controls muted loop>
@@ -85,7 +88,7 @@
                     </video>
                 </div>
             </div>
-</div>
+
         </div>
         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
             <div class="row spacer">
@@ -106,7 +109,7 @@
             </div>
         </div>
     </div>
-
+</div>
 </div>
 
 <?php  include 'footer.php' ?>

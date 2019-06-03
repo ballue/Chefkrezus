@@ -7,16 +7,27 @@ body {
 
 .spacer {
     margin-top: 3%;
+
 }
 .spacerbottom {
     margin-bottom: 3px;
 }
 
 #background {
-
+   background-image: url("../img/backgroundcactus.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 #video {
     border: ridge 2px white;
-    border-image: url("");
+
+
+}
+
+#twitch-embed {
+
+    border-top: solid 2px white;
 
 }
